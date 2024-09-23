@@ -95,6 +95,7 @@ void draw()
   hatSize = 32;
   arduino.digitalWrite(pin3, Arduino.HIGH);
   }
+  delay(150);
   arduino.digitalWrite(pin1, Arduino.LOW);
   arduino.digitalWrite(pin2, Arduino.LOW);
   arduino.digitalWrite(pin3, Arduino.LOW);
